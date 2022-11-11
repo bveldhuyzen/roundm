@@ -43,7 +43,7 @@ glhf
 
 - v1.05 Rounds up to the nearest (multiple of) specified full number with 0 (zero) as starting point (e.g. with rounding up set at 21, the number 53646.24 will round up to 53655)
 
-- v1.06 Rounds up to the nearest (multiple of) specified full number with starting point to be specified by user (e.g. with rounding up set at  1.05 and starting point set at 2.31, the number 2.37 will round up to 4.41).
+- v1.06 Rounds up to the nearest (multiple of) specified full number with starting point to be specified by user (e.g. with rounding up set at  1.05 and starting point set at 2.31, the number 2.37 will round up to 3.41).
 
 
 #
