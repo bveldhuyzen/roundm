@@ -2,7 +2,7 @@
 V3.00
 
 *** Currently in testing phase; all modules ***
-#Release estimated at 1 Jan 2023
+- Release estimated at 1 Jan 2023
 
 #
 #DESCRIPTION
