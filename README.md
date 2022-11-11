@@ -11,7 +11,7 @@ Roundm is an 'interactive' bash script that performs rounding on numerical value
 
 There are various rounding modules to choose from. With the different rounding modules, user is able to specify whether to perform rounding up or down to nearest (multiple of) specified decimals (e.g. 0.05, or 0.00500129), or to nearest (multiple of) specified full number (e.g. 1.05, 100.00, or 2004.50, etc.). User can of course also choose to have full_number rounded to nearest specified significance.
 
-Free to use and edit by all.
+Free to use and edit by all, for the obvious reason.
 
 glhf
 
