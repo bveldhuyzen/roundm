@@ -58,7 +58,7 @@ Of the original number, the decimals are divided by the specified significance, 
 
 - for rounding to (multiple of) specified full number (e.g. rounding up to nearest 22.23):
 
-Of the original number, the full numbers is divided by the specified significance, which results in a multiplication factor. If the multiplication factor is not a whole number, for rounding down is taken the integer, and for rounding up the integer plus one (+1). The specified significance is then multiplied by the multiplication factor, which results in a new full number that is rounded up or down to the specifications of the user.
+Of the original number, the full number is divided by the specified significance, which results in a multiplication factor. If the multiplication factor is not a whole number, for rounding down is taken the integer, and for rounding up the integer plus one (+1). The specified significance is then multiplied by the multiplication factor, which results in a new full number that is rounded up or down to the specifications of the user.
 
 
 After input file, rounding module, and significance are specified by user, roundm will apply the selected method of rounding to all numbers of input file. Output is logged in new text file to be named by user. Roundm accepts both comma and dot as separator of the integer and decimals. Standard output will be with dot as separator, but user can specify this to be comma as well.
