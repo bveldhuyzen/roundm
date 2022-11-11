@@ -2,9 +2,9 @@
 V3.00
 
 *** Currently in testing phase; all modules ***
-Release estimated at 1 Jan 2023
+#Release estimated at 1 Jan 2023
 
-
+#
 #DESCRIPTION
 
 Roundm is an 'interactive' bash script that performs rounding on numerical values of input file. The significance is to be specified by the user. The current version creates intermediate text files of all steps for validation purposes. 
@@ -15,7 +15,7 @@ Free to use and edit by all.
 
 glhf
 
-
+#
 #ROUNDING DOWN MODULES
 
 - v1.01 Rounds down to the nearest (multiple of) specified decimals with the integer as starting point (e.g. with rounding down set at 0.75, the number 1,55 will round down to 1.00)
@@ -30,7 +30,7 @@ glhf
 
 - v1.06 Rounds down to the nearest (multiple of) specified full number with starting point to be specified by user (e.g. with rounding down set at  1.05 and starting point set at 2.31, the number 3.37 will round down to 3.36).
 
-
+#
 #ROUNDING UP MODULES
 
 - v1.01 Rounds up to the nearest (multiple of) specified decimals with the integer as starting point (e.g. with rounding up set at 0.75, the number 1,55 will round up to 1.75)
@@ -46,7 +46,7 @@ glhf
 - v1.06 Rounds up to the nearest (multiple of) specified full number with starting point to be specified by user (e.g. with rounding up set at  1.05 and starting point set at 2.31, the number 2.37 will round up to 4.41).
 
 
-
+#
 #MECHANISM
 
 The rounding mechanism is simple. It uses only basic math (if one could even call it that) and non-complex scripting. Roundm can therefore be 'recreated' in basically any language without the use of complex code/scripts, provided that some sort of basic calc function is available.
@@ -63,7 +63,7 @@ Of the original number, the full numbers is divided by the specified significanc
 
 After input file, rounding module, and significance are specified by user, roundm will apply the selected method of rounding to all numbers of input file. Output is logged in new text file to be named by user. Roundm accepts both comma and dot as separator of the integer and decimals. Standard output will be with dot as separator, but user can specify this to be comma as well.
 
-
+#
 #FORMATS
 Roundm works with the following list/file format:
 
@@ -73,7 +73,7 @@ Roundm works with the following list/file format:
 - The input file can contain text or symbols or spaces on lines, but the output will be incorrect for that line
 - The only symbol that is accepted by roundm and which provides accurate output is the symbol - to mark a negative number (e.g. -23.48373, but not - 23.48373)
 
-
+#
 #FORMULAS
 
 Roundm applies the following formulas for rounding:
@@ -97,4 +97,5 @@ ROUNDING UP MODULES
 - v1.06 ...
 
 
-Missing an option? Do tell, so that it will be included.
+#
+#Missing an option? Do tell, so that it will be included.
