@@ -65,7 +65,8 @@ After input file, rounding module, and significance are specified by user, round
 
 #
 #FORMATS
-- Roundm works with the following list/file format:
+
+Roundm works with the following list/file format:
 
 - One numerical value per line
 - Any amount of lines
