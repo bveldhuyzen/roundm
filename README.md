@@ -24,7 +24,7 @@ glhf
 
 - v1.03 Rounds down to the nearest (multiple of) specified decimals with starting point to be specified by user (e.g. with rounding down set at  0.05 and starting point set at 2.31, the number 3.99 will round down to 3.96).
 
-- v1.04 Rounds down to nearest (multiple of) specified full number with starting point NEXT_GREATER_NUMBER (e.g. with rounding down set at 21 and full_number 53646.24, NEXT_GREATER_NUMBER will be 53600, resulting in rounded down number 53621)
+- v1.04 Rounds down to nearest (multiple of) specified full number with starting point NEXT_GREATER_NUMBER (e.g. with rounding down set at 21 and full_number 53646.24, NEXT_GREATER_NUMBER will be 53600, resulting in rounded down number 53642)
 
 - v1.05 Rounds down to the nearest (multiple of) specified full number with 0 (zero) as starting point (e.g. with rounding down set at 21, the number 53646.24 will round down to 53634)
 
